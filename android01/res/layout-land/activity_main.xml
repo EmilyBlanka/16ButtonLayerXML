@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_answer"
+        android:layout_marginTop="4dp"
+        android:layout_toLeftOf="@+id/gridLayout1"
+        android:gravity="center_horizontal" >
+
+        <ImageButton
+            android:id="@+id/start_button1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/startbutton01" />
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:columnCount="4"
+        android:rowCount="4" >
+
+        <ImageButton
+            android:id="@+id/num_button1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/button01" />
+
+        <ImageButton
+            android:id="@+id/num_button2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/button01" />
+
+        <ImageButton
+            android:id="@+id/num_button3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/button01" />
+
+        <ImageButton
+            android:id="@+id/num_button4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/button01" />
+
+        <ImageButton
+            android:id="@+id/num_button5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/button01" />
+
+        <ImageButton
+            android:id="@+id/num_button6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/button01" />
+
+        <ImageButton
+            android:id="@+id/num_button7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/button01" />
+
+        <ImageButton
+            android:id="@+id/num_button8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/button01" />
+
+        <ImageButton
+            android:id="@+id/num_button9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/button01" />
+
+        <ImageButton
+            android:id="@+id/num_button10"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/button01" />
+
+        <ImageButton
+            android:id="@+id/num_button11"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/button01" />
+
+        <ImageButton
+            android:id="@+id/num_button12"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/button01" />
+
+        <ImageButton
+            android:id="@+id/num_button13"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/button01" />
+
+        <ImageButton
+            android:id="@+id/num_button14"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/button01" />
+
+        <ImageButton
+            android:id="@+id/num_button15"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/button01" />
+
+        <ImageButton
+            android:id="@+id/num_button16"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/button01" />
+    </GridLayout>
+
+</RelativeLayout>
